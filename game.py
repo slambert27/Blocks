@@ -64,6 +64,7 @@ def main():
 	points = 0
 	pointsText = Text(Point(250, 25), str(points))
 	pointsText.setTextColor("white")
+	pointsText.setSize(20)
 	pointsText.draw(win)
 
 	# 1 create nextPiece and draw it to center of lobby
